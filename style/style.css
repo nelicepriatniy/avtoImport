@@ -1,0 +1,1987 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Onest";
+  src: url("../media//fonts/OnestRegular1602-hint.woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Onest";
+  src: url("../media//fonts/OnestMedium1602-hint.woff");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Onest";
+  src: url("../media//fonts/OnestBold1602-hint.woff");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Onest";
+  src: url("../media//fonts/OnestBold1602-hint.woff");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Wadik";
+  src: url("../media//fonts/Wadik.otf");
+  font-weight: 700;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  font-family: "Onest", "sans-serif";
+}
+
+.container {
+  width: 1160rem;
+  margin: 0 calc((100vw - 1160rem) / 2);
+}
+
+body,
+html {
+  font-size: 0.0625vw;
+}
+
+.assets {
+  margin-top: 200rem;
+}
+
+.text-16 {
+  font-family: "Onest", "sans-serif";
+  font-size: 16rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%;
+  /* 21.6rem */
+}
+
+.text-18 {
+  font-family: "Onest", "sans-serif";
+  font-size: 18rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%;
+  /* 24.3rem */
+}
+
+.text-20 {
+  font-family: "Onest", "sans-serif";
+  font-size: 20rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%;
+  /* 27rem */
+}
+
+.subtitle {
+  font-family: "Onest", "sans-serif";
+  font-size: 20rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%;
+  /* 27rem */
+}
+
+.h4 {
+  font-family: "Onest", "sans-serif";
+  font-size: 20rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 135%;
+  /* 27rem */
+}
+
+.title-24 {
+  font-family: "Wadik", "sans-serif";
+  font-size: 24rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  /* 30rem */
+  text-transform: uppercase;
+}
+
+.h3 {
+  font-family: "Wadik", "sans-serif";
+  font-size: 30rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  /* 37.5rem */
+  text-transform: uppercase;
+}
+
+.h2 {
+  font-family: "Wadik", "sans-serif";
+  font-size: 42rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 105%;
+  /* 44.1rem */
+  text-transform: uppercase;
+}
+
+.h1 {
+  font-family: "Wadik", "sans-serif";
+  font-size: 50rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 105%;
+  /* 52.5rem */
+  text-transform: uppercase;
+}
+
+.text-16-table {
+  font-family: "Onest", "sans-serif";
+  font-size: 16rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%;
+  /* 21.6rem */
+}
+
+.text-18-table {
+  font-family: "Onest", "sans-serif";
+  font-size: 18rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%;
+  /* 24.3rem */
+}
+
+.subtitle-table {
+  font-family: "Onest", "sans-serif";
+  font-size: 20rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%;
+  /* 27rem */
+}
+
+.h4-table {
+  font-family: "Onest", "sans-serif";
+  font-size: 20rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 135%;
+  /* 27rem */
+}
+
+.title-20-table {
+  font-family: "Wadik", "sans-serif";
+  font-size: 20rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  /* 25rem */
+  text-transform: uppercase;
+}
+
+.h3-table {
+  font-family: "Wadik", "sans-serif";
+  font-size: 24rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  /* 30rem */
+  text-transform: uppercase;
+}
+
+.h2-table {
+  font-family: "Wadik", "sans-serif";
+  font-size: 36rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 105%;
+  /* 37.8rem */
+  text-transform: uppercase;
+}
+
+.h1-table {
+  font-family: "Wadik", "sans-serif";
+  font-size: 50rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 105%;
+  /* 52.5rem */
+  text-transform: uppercase;
+}
+
+.text-14-mob {
+  font-family: "Onest", "sans-serif";
+  font-size: 14rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%;
+  /* 18.9rem */
+}
+
+.text-16-mob {
+  font-family: "Onest", "sans-serif";
+  font-size: 16rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%;
+  /* 21.6rem */
+}
+
+.subtitle-mob {
+  font-family: "Onest", "sans-serif";
+  font-size: 16rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%;
+  /* 21.6rem */
+}
+
+.h4-mob {
+  font-family: "Onest", "sans-serif";
+  font-size: 18rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 135%;
+  /* 24.3rem */
+}
+
+.h3-mob {
+  font-family: "Wadik", "sans-serif";
+  font-size: 18rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  /* 22.5rem */
+  text-transform: uppercase;
+}
+
+.h2-mob {
+  font-family: "Wadik", "sans-serif";
+  font-size: 24rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 105%;
+  /* 25.2rem */
+  text-transform: uppercase;
+}
+
+.h1-mob {
+  font-family: "Wadik", "sans-serif";
+  font-size: 34rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 105%;
+  /* 35.7rem */
+  text-transform: uppercase;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 11;
+  background: #FCFCFC;
+  top: 0;
+}
+
+.header-top .container {
+  display: flex;
+  -moz-column-gap: 40rem;
+       column-gap: 40rem;
+  padding: 10rem 0;
+  align-items: center;
+  padding: 10rem 0rem;
+  align-items: center;
+}
+
+.header-logo-link {
+  width: 140rem;
+  height: 40rem;
+}
+
+.header-logo {
+  width: 100%;
+  height: 100%;
+}
+
+.header-top-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header-top-list {
+  display: flex;
+  -moz-column-gap: 30rem;
+       column-gap: 30rem;
+}
+
+.header-top-item {
+  padding: 9rem 0;
+  position: relative;
+}
+.header-top-item:hover .header-top-item-text {
+  color: #C60004;
+}
+
+.header-top-item-text {
+  transition: all 0.4s ease;
+  cursor: pointer;
+  color: #404040;
+}
+
+.header-menu-left {
+  display: flex;
+  padding: 5rem 0rem;
+  align-items: center;
+  -moz-column-gap: 15rem;
+       column-gap: 15rem;
+}
+
+.header-top-seti {
+  display: flex;
+  -moz-column-gap: 10rem;
+       column-gap: 10rem;
+}
+
+.header-seti-item {
+  width: 30rem;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3.333rem;
+  border: 1rem solid #171718;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+.header-seti-item:hover {
+  border: 1rem solid #C60004;
+}
+.header-seti-item:hover .header-top-seti-img path {
+  stroke: #C60004;
+}
+.header-seti-item:hover .header-top-seti-img.img1 path {
+  stroke: none;
+  fill: #C60004;
+}
+
+.header-top-seti-img {
+  height: 15rem;
+  width: auto;
+}
+.header-top-seti-img path {
+  stroke: #171718;
+  transition: all 0.4s ease;
+}
+.header-top-seti-img.img1 path {
+  stroke: none;
+  fill: #171718;
+}
+
+.header-top-tel {
+  color: #404040;
+  font-family: "Onest", "sans-serif";
+  font-size: 18rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 135%;
+  /* 24.3rem */
+}
+
+.header-bottom {
+  border-top: 1rem solid var(--Gray, #909090);
+  border-bottom: 1rem solid var(--Gray, #909090);
+}
+
+.header-bottom-menu {
+  display: flex;
+}
+
+.header-bottom-item {
+  display: flex;
+  padding: 10rem 16rem 10rem 16rem;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  color: #404040;
+  font-family: "Onest", "sans-serif";
+  font-size: 18rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 145%;
+  /* 26.1rem */
+  position: relative;
+  flex-direction: column;
+  border-bottom: 0rem solid #C60004;
+  transition: all 0.1s ease;
+  cursor: pointer;
+}
+.header-bottom-item:hover {
+  padding: 10rem 16rem 7rem 16rem;
+  color: #171718;
+  border-bottom: 3rem solid #C60004;
+}
+
+.header-top-item-second {
+  position: absolute;
+  z-index: 2;
+  top: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10rem;
+  background: #FFF;
+  box-shadow: 0rem 0rem 10rem 0rem rgba(0, 0, 0, 0.1);
+  max-height: 0rem;
+  transition: all 0.4s ease;
+  overflow: hidden;
+  padding: 0 20rem;
+}
+.header-top-item-second.active {
+  padding: 20rem;
+  max-height: 1000rem;
+}
+
+.header-top-item-second-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10rem;
+}
+
+.header-second-item {
+  color: #171718;
+  font-family: "Onest", "sans-serif";
+  font-size: 18rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%;
+  /* 24.3rem */
+  text-wrap: nowrap;
+  display: flex;
+  padding: 6rem 16rem 6rem 0rem;
+  align-items: center;
+  gap: 10rem;
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  cursor: pointer;
+}
+.header-second-item::after {
+  bottom: 0;
+  position: absolute;
+  content: "";
+  display: block;
+  min-width: 0;
+  max-width: 0;
+  height: 2rem;
+  background: #C60004;
+  transition: all 0.3s ease;
+}
+.header-second-item:hover::after {
+  min-width: 100%;
+}
+
+.mainBlock {
+  margin-top: 166rem;
+  margin-bottom: 60rem;
+}
+.mainBlock .container {
+  display: flex;
+}
+
+.mainTexts {
+  width: 590rem;
+}
+
+.mainHeading {
+  margin-bottom: 30rem;
+}
+
+.mainSubtitle {
+  margin-bottom: 60rem;
+}
+
+.mainButton {
+  color: #FCFCFC;
+  text-align: center;
+  font-family: "Wadik", "sans-serif";
+  font-size: 16rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 105%;
+  /* 16.8rem */
+  text-transform: uppercase;
+  display: flex;
+  width: 260rem;
+  height: 60rem;
+  padding: 10rem 0rem;
+  justify-content: center;
+  align-items: center;
+  background: #171718;
+}
+
+.mainBg {
+  width: 570rem;
+  position: relative;
+  height: 390rem;
+}
+
+.mainBgTopArr {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80rem;
+  height: 80rem;
+}
+
+.mainBgBtmArr {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80rem;
+  height: 80rem;
+}
+
+.mainBgRed {
+  width: 380rem;
+  height: 285rem;
+  background: #C60004;
+  position: absolute;
+  left: 20rem;
+  bottom: 20rem;
+}
+
+.mainBgRedArr {
+  width: 70rem;
+  height: 70rem;
+}
+
+.mainBgText {
+  color: #FCFCFC;
+  font-family: "Onest", "sans-serif";
+  font-size: 18rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%;
+  /* 24.3rem */
+  width: 197rem;
+  position: absolute;
+  left: 20rem;
+  bottom: 20rem;
+}
+.mainBgText span {
+  font-weight: 700;
+}
+
+.mainBgBlackCar {
+  position: absolute;
+  width: 475.773rem;
+  height: 358.027rem;
+  flex-shrink: 0;
+  right: 0;
+  top: -20rem;
+}
+
+.mainBgWhiteCar {
+  width: 500.663rem;
+  height: 240.28rem;
+  position: absolute;
+  flex-shrink: 0;
+  top: 138rem;
+  right: -175rem;
+}
+
+.selectCar {
+  margin-bottom: 60rem;
+}
+.selectCar .container {
+  display: flex;
+  width: 1160rem;
+  padding: 35rem 0rem;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20rem;
+  border: 1rem solid #171718;
+}
+
+.selectCarHeading {
+  color: #171718;
+  text-align: center;
+  width: 100%;
+}
+
+.selectCarWraper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  -moz-column-gap: 20rem;
+       column-gap: 20rem;
+}
+
+.selectCarItem {
+  display: flex;
+  height: 60rem;
+  padding: 12rem 16rem;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 10rem;
+       column-gap: 10rem;
+}
+
+.selectCarItemImg {
+  width: 35rem;
+  height: 35rem;
+}
+
+.selectCarItemText {
+  color: #171718;
+  font-family: "Wadik", "sans-serif";
+  font-size: 20rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 105%;
+  /* 21rem */
+  text-transform: uppercase;
+}
+
+.popularCars {
+  margin-bottom: 60rem;
+}
+.popularHeading {
+  position: relative;
+  padding: 40rem 0 0 40rem;
+}
+
+.popularHeadingArr {
+  width: 80rem;
+  height: 80rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.popularHeadingText {
+  color: #C60004;
+}
+.popularHeadingText span {
+  color: #171718;
+}
+
+.popularArrows {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  -moz-column-gap: 20rem;
+       column-gap: 20rem;
+  align-self: stretch;
+  margin-bottom: 20rem;
+}
+
+.popularArrow {
+  width: 40rem;
+  height: 40rem;
+  cursor: pointer;
+}
+.popularArrow rect {
+  fill: #F5F5F5;
+  transition: all 0.4s ease;
+}
+.popularArrow path {
+  fill: #C60004;
+  transition: all 0.4s ease;
+}
+
+.swiper-button-disabled rect {
+  fill: rgba(245, 245, 245, 0);
+}
+.swiper-button-disabled path {
+  fill: #8C8C8C;
+}
+
+.popularArrowPrew {
+  transform: rotate(180deg);
+}
+
+.popularCarSlide {
+  display: flex;
+  padding: 15rem 15rem 20rem 15rem;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.popularSlideImg {
+  width: 343rem;
+  height: 237rem;
+  margin-bottom: 12rem;
+}
+
+.popularSlideInfo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.popularSlideName {
+  color: #171718;
+  margin-bottom: 10rem;
+}
+
+.popularSlideHarr {
+  display: flex;
+  width: 100%;
+  -moz-column-gap: 10rem;
+       column-gap: 10rem;
+  padding-bottom: 12rem;
+  border-bottom: 1rem solid #909090;
+  margin-bottom: 10rem;
+}
+
+.popularSlideHarrItem {
+  display: flex;
+  -moz-column-gap: 6rem;
+       column-gap: 6rem;
+}
+
+.popularSlideHarrItemImg {
+  width: 16rem;
+  height: 16rem;
+}
+
+.popularSlideHarrItemText {
+  color: #404040;
+  font-family: "Onest", "sans-serif";
+  font-size: 12rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  /* 15rem */
+}
+
+.popularSlideItemPrice {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20rem;
+}
+
+.popularSlideItemPriceText {
+  color: #171718;
+  font-family: "Onest", "sans-serif";
+  font-size: 18rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  /* 22.5rem */
+}
+
+.popularSlideItemPriceCredit {
+  color: #404040;
+  font-family: "Onest", "sans-serif";
+  font-size: 14rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  /* 20.3rem */
+}
+
+.popularSlideOstavitZayavku {
+  color: #FCFCFC;
+  text-align: center;
+  margin-bottom: 8rem;
+  font-family: "Wadik", "sans-serif";
+  font-size: 15rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  /* 15rem */
+  display: flex;
+  padding: 15rem 10rem;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  background: #171718;
+  margin-bottom: 10rem;
+}
+
+.popularSlideButtons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popularSlideButtonCredit {
+  color: #C60004;
+  text-align: center;
+  font-family: "Onest", "sans-serif";
+  font-size: 15rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  /* 15rem */
+  display: flex;
+  padding: 13rem 10rem;
+  justify-content: center;
+  align-items: center;
+  width: 160rem;
+  border: 1rem solid #C60004;
+  background: none;
+}
+
+.popularSlideButtonMoreInfo {
+  color: #292929;
+  text-align: center;
+  /* Little button */
+  font-family: "Onest", "sans-serif";
+  font-size: 15rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  /* 15rem */
+  display: flex;
+  padding: 13rem 10rem;
+  justify-content: center;
+  align-items: center;
+  width: 160rem;
+  border: 1rem solid #404040;
+  background: none;
+}
+
+.popularPaggination {
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-pagination-bullet {
+  width: 35rem;
+  height: 35rem;
+  flex-shrink: 0;
+  font-family: "Onest", "sans-serif";
+  font-size: 14rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  /* 20.3rem */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+  background: none;
+  color: #404040;
+  transition: all 0.4s ease;
+}
+
+.swiper-pagination-bullet-active {
+  color: #171718;
+  border: 1rem solid #404040;
+}
+
+.selectMark {
+  margin-bottom: 100rem;
+}
+.selectMark .container {
+  display: flex;
+  padding: 40rem 0rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30rem;
+  border: 1rem solid #171718;
+}
+
+.selectMarkHeading {
+  margin-bottom: 30rem;
+}
+
+.selectMarkWraper {
+  width: 1030rem;
+  -moz-column-gap: 20rem;
+       column-gap: 20rem;
+  row-gap: 20rem;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.selectMarkItem {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.selectMarkImg {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.selectMarkText {
+  color: #404040;
+  font-family: "Onest", "sans-serif";
+  font-size: 12rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  /* 17.4rem */
+  text-transform: uppercase;
+}
+
+.calculator {
+  margin-bottom: 100rem;
+}
+.calcHeading {
+  position: relative;
+  padding: 40rem 0 0 40rem;
+  margin-bottom: 60rem;
+}
+
+.calcHeadingText {
+  color: #171718;
+}
+.calcHeadingText span {
+  color: #C60004;
+  font-family: "Wadik", "sans-serif";
+  font-size: 42rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 105%;
+  text-transform: uppercase;
+}
+
+.calcHeadingArrLeft {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.calkHeadingArr {
+  width: 80rem;
+  height: 80rem;
+}
+
+.calcHeadingArrRight {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.calcLeft {
+  display: flex;
+  flex-direction: column;
+  width: 450rem;
+  margin-right: 130rem;
+}
+
+.calkLeftItem {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30rem;
+}
+.calkLeftItem:last-child {
+  margin-bottom: 0;
+}
+
+.calkLeftHeading {
+  margin-bottom: 16rem;
+}
+
+.calkLeftHeadingText {
+  color: #171718;
+}
+
+.calcInputWraper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10rem;
+  margin-bottom: 15rem;
+}
+
+.calkInput {
+  display: flex;
+  width: 450rem;
+  height: 45rem;
+  padding: 10rem 16rem;
+  align-items: center;
+  gap: 8rem;
+  border: 1rem solid var(--Black-300, #404040);
+  background: none;
+}
+
+.calcPrice {
+  display: flex;
+  -moz-column-gap: 15rem;
+       column-gap: 15rem;
+  margin-bottom: 10rem;
+}
+
+.calkPriceRed {
+  color: #C60004;
+  font-family: "Onest", "sans-serif";
+  font-size: 20rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  /* 24rem */
+}
+
+.calkPriceGray {
+  color: #171718;
+  font-family: Onest;
+  font-size: 20rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  /* 24rem */
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.tradeInBlock {
+  display: flex;
+  position: relative;
+}
+
+.tradeInLabel {
+  display: flex;
+  position: relative;
+  align-items: center;
+  -moz-column-gap: 8rem;
+       column-gap: 8rem;
+  cursor: pointer;
+}
+
+.tradeInCheckBox {
+  position: absolute;
+  left: -99999rem;
+  opacity: 0;
+}
+.tradeInCheckBox:checked + .tradeInCheckBoxVisual .tradeInSvg {
+  opacity: 1;
+}
+
+.tradeInCheckBoxVisual {
+  display: flex;
+  width: 20rem;
+  height: 20rem;
+  padding: 2.5rem;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border: 1rem solid #929292;
+  background: none;
+}
+.tradeInCheckBoxVisual .tradeInSvg {
+  opacity: 0;
+}
+
+.tradeInSvg {
+  width: 15rem;
+  height: 15rem;
+  flex-shrink: 0;
+  transition: all 0.4s ease;
+}
+
+.tradeInCheckBoxText {
+  color: #404040;
+  font-family: "Onest", "sans-serif";
+  font-size: 14rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  /* 20.3rem */
+}
+
+.lineInputBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.imputLineHeader {
+  font-size: 20rem;
+  font-weight: 500;
+  line-height: 24rem;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 18rem;
+}
+
+.rangeNums {
+  margin-top: 10rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rangezero {
+  font-size: 16rem;
+  font-weight: 300;
+  line-height: 20rem;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.rabgehang {
+  font-size: 16rem;
+  font-weight: 300;
+  line-height: 20rem;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.rabgeInp {
+  -webkit-appearance: none;
+  width: 450rem;
+  height: 3rem;
+  background: #C60004;
+  /* Скрывает слайдер, чтобы можно было создать свой */
+  /* Указание параметра ширины требуется для Firefox. */
+}
+
+.rabgeInp::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+.rabgeInp:focus {
+  outline: none;
+  /* Убирает голубую границу у элемента. Хотя, возможно, и стоит создавать некоторое оформления для состояния фокуса в целях обеспечения доступности. */
+}
+
+.rabgeInp::-ms-track {
+  width: 100%;
+  cursor: pointer;
+  background: transparent;
+  /* Скрывает слайдер, чтобы можно было добавить собственные стили. */
+  border-color: transparent;
+  color: transparent;
+}
+
+/* Специальные правила для браузеров на движках WebKit/Blink */
+.rabgeInp::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 20rem;
+  width: 16rem;
+  border-radius: 3rem;
+  background: #ffffff;
+  cursor: pointer;
+  margin-top: 0rem;
+  /* Вам нужно указать значение для поля в Chrome, но в Firefox и IE это происходит автоматически */
+  /* Добавляем классные эффекты для слайдера! */
+  width: 22rem;
+  height: 22rem;
+  background: #C60004;
+  border-radius: 100%;
+}
+
+/* Тоже самое для Firefox */
+.rabgeInp::-moz-range-thumb {
+  -webkit-appearance: none;
+  height: 20rem;
+  width: 16rem;
+  border-radius: 3rem;
+  background: #ffffff;
+  cursor: pointer;
+  margin-top: 0rem;
+  /* Вам нужно указать значение для поля в Chrome, но в Firefox и IE это происходит автоматически */
+  /* Добавляем классные эффекты для слайдера! */
+  width: 22rem;
+  height: 22rem;
+  background: #C60004;
+  border-radius: 100%;
+}
+
+/* Тоже самое для IE */
+.rabgeInp::-ms-thumb {
+  -webkit-appearance: none;
+  height: 20rem;
+  width: 16rem;
+  border-radius: 3rem;
+  background: #ffffff;
+  cursor: pointer;
+  margin-top: 0rem;
+  /* Вам нужно указать значение для поля в Chrome, но в Firefox и IE это происходит автоматически */
+  /* Добавляем классные эффекты для слайдера! */
+  width: 22rem;
+  height: 22rem;
+  background: #C60004;
+  border-radius: 100%;
+}
+
+.valueWraper {
+  display: flex;
+}
+
+.calkFullWraper {
+  display: flex;
+}
+
+.calcRight {
+  width: 450rem;
+}
+
+.sendCalkBtn {
+  width: 300rem;
+  height: 60rem;
+  padding: 10rem, 24rem, 10rem, 24rem;
+  background: #C60004;
+  font-family: "Wadik", "sans-serif";
+  font-size: 16rem;
+  font-weight: 700;
+  line-height: 17rem;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  margin-top: 15rem;
+  margin-bottom: 30rem;
+}
+
+.calkItog {
+  width: 530rem;
+  height: 414rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40rem;
+  background: #171718;
+  position: relative;
+}
+
+.itogCalkHeading {
+  margin-bottom: 30rem;
+  color: #FCFCFC;
+}
+
+.itogoCalkItem {
+  display: flex;
+  justify-content: space-between;
+  width: 407rem;
+  margin-bottom: 20rem;
+}
+
+.itogoCalkItemHeaidng {
+  font-family: "Onest", "sans-serif";
+  font-size: 20rem;
+  font-weight: 700;
+  line-height: 24rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FCFCFC;
+}
+
+.itogoCalkItemNum {
+  font-family: "Onest", "sans-serif";
+  font-size: 24rem;
+  font-weight: 700;
+  line-height: 29rem;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 120rem;
+  color: #FCFCFC;
+}
+
+.redCarCalkItog {
+  position: absolute;
+  bottom: -148rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.whayWe {
+  margin-bottom: 60rem;
+}
+
+.whayWeHeaing {
+  position: relative;
+  width: 1160rem;
+  height: 84rem;
+  padding: 40rem;
+  margin-bottom: 60rem;
+}
+
+.whayWeHeadingArr {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80rem;
+  height: 80rem;
+}
+
+.whayWeWraper {
+  display: flex;
+}
+
+.whayWeWraperMain {
+  width: 360rem;
+  height: 470rem;
+  background: #C60004;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40rem;
+  justify-content: space-between;
+  margin-right: 40rem;
+}
+
+.whayWeWraperMainLogo {
+  width: 100%;
+}
+
+.whayWeMainText {
+  color: #FCFCFC;
+}
+
+.whayWeWraperPluss {
+  display: grid;
+  grid-template-columns: repeat(2, 360rem);
+  -moz-column-gap: 40rem;
+       column-gap: 40rem;
+  row-gap: 40rem;
+}
+
+.whayWeItemHeading {
+  margin-bottom: 15rem;
+}
+
+.whayWeItemText {
+  font-family: "Onest", "sans-serif";
+  font-size: 18rem;
+  font-weight: 400;
+  line-height: 24rem;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.whayWeItemText span {
+  font-weight: 700;
+}
+
+.middleForm {
+  margin-bottom: 100rem;
+}
+.middleForm .container {
+  background: #171718;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40rem 0;
+}
+
+.middleFormHeaidng {
+  color: #FCFCFC;
+  margin-bottom: 15rem;
+}
+
+.middleFormText {
+  color: #DCDCDC;
+  margin-bottom: 30rem;
+}
+
+.middleFormForm {
+  width: 840rem;
+}
+
+.middleFormInputWraper {
+  display: flex;
+  width: 840rem;
+  justify-content: space-between;
+  margin-bottom: 10rem;
+}
+
+.middleFormInput {
+  width: 260rem;
+  height: 60rem;
+  padding: 10rem 16rem 10rem 16rem;
+  border: 1rem;
+  gap: 8rem;
+  background: none;
+  border: 1rem solid #DCDCDC;
+}
+
+.middleFormSend {
+  font-family: "Wadik", "sans-serif";
+  font-size: 16rem;
+  font-weight: 700;
+  line-height: 17rem;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 300rem;
+  height: 60rem;
+  padding: 10rem 24rem 10rem 24rem;
+  background: #C60004;
+  color: #FCFCFC;
+}
+
+.polityc {
+  color: #DCDCDC;
+}
+
+.steps {
+  margin-bottom: 100rem;
+}
+
+.stepsWraper {
+  display: grid;
+  grid-template-columns: repeat(3, 360rem);
+  -moz-column-gap: 40rem;
+       column-gap: 40rem;
+  row-gap: 40rem;
+}
+
+.stepsItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.stepsItemHeading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rem;
+}
+
+.stepsItemNum {
+  font-family: "Wadik", "sans-serif";
+  font-size: 46rem;
+  font-weight: 700;
+  line-height: 48rem;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-right: 6rem;
+}
+
+.stepsHeadingSerc {
+  width: 22rem;
+  height: 22rem;
+  background: #C60004;
+  border-radius: 100%;
+}
+
+.stepsHeadingLine {
+  width: 243rem;
+  border: 1rem dotted #C60004;
+  height: 0.5rem;
+}
+
+.stepsItemTextsItem {
+  margin-bottom: 15rem;
+  color: #171718;
+}
+
+.stepsItemTextsText {
+  color: #404040;
+}
+
+.stepsCong {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 20rem;
+       column-gap: 20rem;
+  margin-top: 60rem;
+  align-items: center;
+}
+
+.stepsArr {
+  width: 50rem;
+  height: 50rem;
+}
+
+.stepsCongText {
+  color: #171718;
+  width: 740rem;
+  text-align: center;
+}
+.stepsCongText span {
+  color: #C60004;
+}
+
+.podbor {
+  margin-bottom: 100rem;
+}
+.podbor .container {
+  padding: 40rem;
+  border: 1rem solid #171718;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.podborheading {
+  width: 100%;
+  text-align: center;
+  color: #171718;
+  margin-bottom: 15rem;
+}
+
+.podborText {
+  color: #171718;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30rem;
+}
+
+.podborWraper {
+  display: flex;
+  align-items: center;
+}
+
+.podborItemText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 40rem;
+}
+
+.podborItemHeading {
+  font-family: "Onest", "sans-serif";
+  font-size: 20rem;
+  font-weight: 700;
+  line-height: 24rem;
+  letter-spacing: 0rem;
+  text-align: left;
+  color: #171718;
+  margin-bottom: 15rem;
+}
+
+.podborItemInput {
+  position: relative;
+  margin-bottom: 5rem;
+}
+.podborItemInput:last-child {
+  margin-bottom: 0;
+}
+
+.podborItemLabel {
+  display: flex;
+  align-items: center;
+}
+
+.podborinputItSelf {
+  position: absolute;
+  left: -20rem;
+  opacity: 0;
+}
+.podborinputItSelf:checked + .podborInputBisual {
+  border: 2rem solid #C60004;
+}
+.podborinputItSelf:checked + .podborInputBisual::after {
+  opacity: 1;
+}
+
+.podborInputBisual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18rem;
+  height: 18rem;
+  border: 2rem solid rgba(79, 79, 79, 0.6);
+  border-radius: 100%;
+  margin-right: 10rem;
+  transition: all 0.4s ease;
+}
+.podborInputBisual::after {
+  content: "";
+  display: block;
+  background: #C60004;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 100%;
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+.podborInputText {
+  font-family: "Onest", "sans-serif";
+  font-size: 16rem;
+  font-weight: 400;
+  line-height: 23rem;
+  letter-spacing: 0rem;
+  text-align: left;
+}
+
+.podborItemImgs {
+  display: grid;
+  grid-template-columns: repeat(4, 145rem);
+  -moz-column-gap: 20rem;
+       column-gap: 20rem;
+  row-gap: 10rem;
+}
+
+.podborItemImgItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.podborImgItemImg {
+  width: 145rem;
+  height: 65rem;
+  margin-bottom: 10rem;
+}
+
+label {
+  cursor: pointer;
+}
+
+.podborForm {
+  margin-top: 30rem;
+}
+.podborForm .polityc {
+  color: #404040;
+}
+.podborForm .middleFormInput {
+  border: 1rem solid #404040;
+}
+
+.questions {
+  margin-bottom: 100rem;
+}
+.questionsHEading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50rem;
+  -moz-column-gap: 30rem;
+       column-gap: 30rem;
+}
+
+.faqHeadingArr {
+  width: 70rem;
+  height: 70rem;
+}
+
+.faqHeadungText {
+  color: #171718;
+}
+.faqHeadungText span {
+  color: #C60004;
+}
+
+.faqWraper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 40rem;
+       column-gap: 40rem;
+}
+
+.faqItem {
+  padding: 20rem 30rem;
+  border-bottom: 2rem solid #404040;
+  width: 560rem;
+}
+.faqItem:nth-child(-n+2) {
+  border-top: 2rem solid #404040;
+}
+.faqItem .faqItemAnsver {
+  max-height: 0rem;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  margin-top: 0;
+}
+.faqItem.active .faqItemAnsver {
+  max-height: 300rem;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  margin-top: 20rem;
+}
+.faqItem.active .faqItemArr {
+  width: 45rem;
+  height: 45rem;
+  order: 3;
+  transform: rotate(180deg);
+}
+.faqItem.active .faqItemArr path {
+  fill: #404040;
+}
+
+.faqItemQestion {
+  display: flex;
+  align-items: center;
+}
+
+.faqItemQuestionSvg {
+  width: 16rem;
+  height: 16rem;
+  margin-right: 15rem;
+  order: 1;
+}
+
+.questionItemQuestionText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20rem;
+  line-height: 120%;
+  order: 2;
+  color: #171718;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  width: 407rem;
+  margin-right: 15rem;
+}
+
+.faqItemArr {
+  width: 45rem;
+  height: 45rem;
+  order: 3;
+  transition: all 0.4s ease;
+}
+.faqItemArr path {
+  fill: #C60004;
+  transition: all 0.4s ease;
+}
+
+.faqItemAvswerText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18rem;
+  line-height: 155%;
+  color: #4D4D4D;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.contacts {
+  margin-bottom: 100rem;
+  position: relative;
+}
+.contacts .container {
+  position: relative;
+}
+
+.contactsHeading {
+  position: relative;
+  width: 100%;
+  padding: 40rem 0 0 40rem;
+  display: flex;
+  margin-bottom: 0rem;
+}
+
+.contactsheadingArrBlack {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80rem;
+  height: 80rem;
+}
+
+.contactsheadingArrRed {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80rem;
+  height: 80rem;
+}
+
+.contactsHeadingLogo {
+  margin-right: 131rem;
+  width: 229rem;
+  height: 66rem;
+}
+
+.contactsHeadingText {
+  width: 360rem;
+  text-align: center;
+}
+
+.contactsWraper {
+  display: flex;
+}
+
+.contactsInfo {
+  padding-top: 60rem;
+  margin-right: 102rem;
+}
+
+.contactsInfoHeading {
+  color: #404040;
+  margin-bottom: 20rem;
+}
+
+.contactsPhone {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28rem;
+  line-height: 135%;
+  color: #171718;
+}
+
+.contactsSetiHeading {
+  color: #404040;
+}
+
+.contactsSeti {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 15rem;
+       column-gap: 15rem;
+  margin-top: 15rem;
+}
+
+.contactsSetiHref {
+  width: 45rem;
+  height: 45rem;
+  position: relative;
+}
+
+.contactsForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 360rem;
+}
+.contactsForm .middleFormInput {
+  width: 100%;
+  margin-bottom: 10rem;
+}
+.contactsForm .middleFormSend {
+  width: 100%;
+  margin-top: 10rem;
+}
+
+.contactsCar {
+  position: absolute;
+  top: 40rem;
+  right: 12rem;
+}
+
+footer {
+  background: #171718;
+  padding: 40rem 0 0 0;
+}
+footer .container {
+  display: flex;
+}
+
+.footerItem {
+  display: flex;
+  flex-direction: column;
+  margin-right: 80rem;
+}
+.footerItem:last-child {
+  margin-right: 0;
+}
+
+.footerItemHeading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16rem;
+  line-height: 135%;
+  /* identical to box height, or 22rem */
+  margin-bottom: 20rem;
+  color: #C60004;
+}
+
+.footerItemLinks {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerItemLink {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 6rem 16rem 6rem 0;
+  display: block;
+}
+.footerItemLink::after {
+  content: "";
+  display: block;
+  width: 0;
+  transition: all 0.4s ease;
+  height: 2rem;
+  background: #C60004;
+}
+.footerItemLink:hover::after {
+  width: 100%;
+}
+
+.footerItemLinkText {
+  font-family: "Onest";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16rem;
+  line-height: 135%;
+  color: #DCDCDC;
+}
+
+.footerContacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerContactsWp {
+  width: 240rem;
+  height: 45rem;
+  background: #C60004;
+  font-family: "Onest";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15rem;
+  line-height: 100%;
+  /* identical to box height, or 15rem */
+  text-align: center;
+  color: #F5F5F5;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-bottom: 40rem;
+}
+
+.footerNavBtn .footerItemLinkText {
+  font-size: 16rem;
+  font-weight: 700;
+  line-height: 22rem;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.raz {
+  font-family: "Onest", "sans-serif";
+  font-size: 15rem;
+  font-weight: 400;
+  line-height: 20rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #DCDCDC;
+  margin-top: 40rem;
+}
+.raz span {
+  color: #C60004;
+}
+
+.footerGray {
+  background: #404040;
+  padding: 10rem 0;
+  margin-top: 40rem;
+}
+.footerGray .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.prava {
+  font-family: "Onest", "sans-serif";
+  font-size: 14rem;
+  font-weight: 400;
+  line-height: 20rem;
+  letter-spacing: 0rem;
+  text-align: left;
+  color: #FCFCFC;
+}
+
+.polityc {
+  font-family: "Onest", "sans-serif";
+  font-size: 14rem;
+  font-weight: 400;
+  line-height: 20rem;
+  letter-spacing: 0rem;
+  text-align: left;
+  color: #FCFCFC;
+}
+
+.btnUp {
+  width: 40rem;
+  height: 40rem;
+}/*# sourceMappingURL=style.css.map */
